@@ -323,7 +323,7 @@ BabelFrog.processSelection = function() {
 
   // if there is a selection, push it to its bounding limits
   var r = rangy.getSelection().getRangeAt(0);
-  BabelFrog.expandToWordBoundary(r);
+  //BabelFrog.expandToWordBoundary(r);
   rangy.getSelection().setSingleRange(r);
 
   var currentJob = BabelFrog.currentJob;
